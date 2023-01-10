@@ -1,0 +1,3 @@
+$ cd SELecture2022_GitReport
+$ git config --local user.name "AnonymousStudent"
+$ git config --local user.email "<⾃分のメールアドレス>"
