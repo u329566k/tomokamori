@@ -1,3 +1,26 @@
 $ cd SELecture2022_GitReport
 $ git config --local user.name "AnonymousStudent"
 $ git config --local user.email "<⾃分のメールアドレス>"
+
+$ git branch
+* main
+
+$ git add Reports/AnonymousStudent.md
+$ git commit -m "<任意のコミットメッセージ>"
+$ git push
+
+$ git branch AnonymousStudent
+$ git checkout AnonymousStudent
+
+$ git add DesignPattern.md
+$ git commit -m "<コミットメッセージ>"
+$ git push -u origin AnonymousStudent
+
+$ git checkout main
+$ git pull
+$ git merge AnonymousStudent
+
+$ git add DesignPattern.md
+$ git commit -m "<コミットメッセージ>"
+
+$ git push
